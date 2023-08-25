@@ -72,20 +72,7 @@
    padding:30px 
 }
 
-.benefitCheckBoxs{
-    display:flex;
-    flex-wrap: wrap; 
-    justify-content: center;  /* Center horizontally */
-    align-items: center; /* Center vertically */
-}
 
-.benefitCheckBox{
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    padding:10px ;
-}
 
 .fa-check-circle{
     color: #437EF7;
@@ -213,10 +200,11 @@
 
     }
 
-    .learnMorebtn{
+    .bluebtn{
             background-color: white;
             color: #008CBA;
             border: none;
+            font-weight:600;
     }
 
     .base{
@@ -291,51 +279,62 @@
 
     .avatar{
         display: flex;
-        flex-direction:row;
-        padding-left: 20px;
-        max-height:42;
     }
 
-    .avatar-img{
-        padding-right: 20px;
-        height:auto;
-        width:auto;
+
+    .avatar-details{
+        display: flex;
+        flex-direction: column;
+        margin:0px;
+        margin-left:10px;
     }
 
     .avatar-name{
         color: #272D37;
+        font-weight: 500;
         font-size: 20px;
-    font-weight: 500;
+        margin:0px;
     }
 
     .avatar-designation{
-        color: #5F6D7E;
         font-size: 18px;
+        margin:0px;
+        color: #5F6D7E;
         font-weight: 500;
     }
 
+    .blogfooter{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center; /* Center vertically */ 
+    }
+
+    .blogDate{
+        color: #5F6D7E;
+    }
     .blogContainer{
         display:flex;
         flex-wrap: wrap;
         justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+      
     }
 
-    .blogContainerItem{
-     /*   background-color: palevioletred;   */
-        flex-basis: calc(33%);
-        padding-top:50px;
-        padding: 50px 10px 20px 10px;   
-
+    .blogContainerItem{  
+     width: 375px;
+    border-radius: 5px;
+    margin: 10px;
     }
 
     .blog-pic{
-        width:auto;
-        height:auto;
+        width: 100%;
+        height:100%;
         border-radius: 10px;
     }
 
     .industryPercent{
-        color:#437EF7;
+        background: #FAFBFC;
         font-weight:600;
         text-align: center;
         padding-bottom: 0px;
@@ -352,8 +351,8 @@
     .footerDetails{
         display:flex;
         flex-wrap: wrap; 
-        justify-content:space-between;  /* Center horizontally */
-        align-items:start; /* Center vertically */
+       justify-content:space-between; /*  Center horizontally */
+       align-items:start; /* Center vertically */
     }
 
     .footer-footer{
@@ -365,23 +364,21 @@
 
     .detailItem1{
         width: 247px;
-        height: 128px;
-        margin: 16px;
+        margin: 0px 16px 16px 0px;
     }
 
     .detailItem2{
-     
-        margin: 24px;
+        margin: 0px 16px 16px 16px;
     }
 
     .detailItem3{
-        margin: 24px;
+        margin: 0px 16px 16px 16px;
     }
 
     .detailItem4{
+        min-width: 302px;
         width: 302px;
-        height: 128px;
-        margin: 24px;
+        margin: 0px 0px 16px 16px;
     }
 
     .emailContainerfooter{
@@ -406,16 +403,47 @@
 
     .itemHeader{
         color: #F9F9F9;
-        padding:10px 10px 10px 0px;
+        padding:10px 10px 5px 0px;
     }
 
     .itemBody{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
         color:#A5ACBA;
         width: Hug (87px);
         height: Hug (24px);
         border-radius: 5px;
         margin: 4px;
 
+    }
+
+    .footerLinks{
+        color:#A5ACBA;
+        text-decoration: none; 
+        padding:5px 0px;
+    }
+
+    .benefitCheckBoxs{
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: center;  /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+ 
+    .form-check-input{      
+        font-size: 22px !important;
+        margin: 12px 4px !important; 
+    }
+
+    .form-check-label{
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        line-height: 24px !important;
+        text-align: left !important;
+        padding: 0px 4px  !important;
+        margin:10px 4px !important;  
+        
     }
 
 
@@ -486,26 +514,15 @@
     .submit-btnfooter{  
         margin-bottom: 10px;
         border-radius: 6px 6px 6px 6px;
-        width: 100% !important;
+        width: auto !important;
     }
 
     .emailContainerfooter{
         margin-bottom: 10px;
-        width: 100% !important;
+        width: auto !important;
         border-radius: 6px 6px 6px 6px;
     } 
-    
-    .detailItem2{
-        margin-top: 0px;
-    }
 
-    .detailItem3{
-        margin-top: 0px;
-    }
-
-    .detailItem4{
-        margin-top: 0px;
-    }
 }
 
 @media screen and (max-width: 576px) {
@@ -526,10 +543,11 @@
          }
 
          .detailItem1{
-            width: 100%;
+            width: 100%  !important;
         }
         .detailItem4{
-            width: 100%;
+            order:4 !important;
+            width: 100% !important;
         }
 
         .emailContainerfooter{
@@ -540,9 +558,9 @@
         }
 
         .textInputContainer{
-            justify-content: start;  
+            justify-content: start; 
         }
-
+       
 
      /*    .footerDetails{
             justify-content:left;
@@ -579,11 +597,33 @@
     .featureContainer{
         padding:none;
     }
-
+    
     .bloglastItem{  
-        display:flex;
+        display:block !important;
     }
 
+}
+@media screen and (max-width: 992px) {
+
+     detailItem1{
+        width:50%;
+     }
+
+    .detailItem4{
+        width:50%;
+        order:2;
+        margin:0px;
+    }
+    .detailItem2{
+        order:3;
+        width: 50%;
+        margin:0px;
+    }
+    .detailItem3{
+        order:4;
+        width: 50%;
+        margin:0px;
+    }
   }
   
   /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
@@ -659,7 +699,6 @@
     .bloglastItem{  
         display:none;
     }
-    
     
   }
   
