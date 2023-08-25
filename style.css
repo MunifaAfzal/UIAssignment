@@ -1,0 +1,665 @@
+/*   header Section CSS */
+#header {
+    width: 100%;
+    min-height: 86px;
+    padding: 20px 160px 20px 160px;
+    border: 0px 0px 1px 0px;
+    gap: 10px;
+}
+.nav-item{
+    width:auto;
+}
+#navButton{
+    color: white;
+}
+/* card cesrion css */
+.heroCard{
+    background-color: #0d6efd;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 20px 150px 20px 150px;
+}
+#cardBase{
+    min-width:650px;
+    padding:20px 120px 20px 60px;   
+}
+
+.cardHeading{
+    color: white;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.cardDetails{
+    color: #B1CCFB;
+
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+}
+
+.btn{
+    width: 150px !important;  
+    background-color: #B1CCFB !important;
+    text-decoration-color: white !important;
+}
+
+
+
+.cardImage{
+    height: auto;
+    width :auto;
+}
+.supportCompanyLogos{
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: center;  /* Center horizontally */
+    align-items: center; /* Center vertically */ 
+}
+
+.proudCompanyLogos{
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: center;  /* Center horizontally */
+    align-items: center; /* Center vertically */ 
+}
+
+.proudCompanylogo{
+   padding:30px 
+}
+
+.benefitCheckBoxs{
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: center;  /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.benefitCheckBox{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    padding:10px ;
+}
+
+.fa-check-circle{
+    color: #437EF7;
+    font-size: 20px;
+    padding-right:10px;
+}
+
+.textInputContainer{
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: center;  /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.textInputContainerField{
+    padding:10px ;
+}
+
+.emailContainer{
+    width: 424px;
+    height: 46px;
+    padding:10px ;
+    border-radius: 6px 0px 0px 6px;
+    border:1px solid #DAE0E6;
+}
+
+
+.submit-btn{
+    background-color:  #437EF7;
+    color:white;
+    width: 88px;
+    height: 47px;
+    padding:10px ;
+    border-radius: 0px 6px 6px 0px;
+    border:1px solid #437EF7;
+}
+
+
+.companylogo{
+    flex-basis: calc(25% - 20px);
+}
+
+.footer-footer{
+    border-top: 1px solid  #A5ACBA;
+    ;
+}
+
+.rightsReserved{
+    color:#A5ACBA;
+    padding:20px 0px;
+}
+.socialMediaLogos{
+    display:flex;
+    flex-wrap: wrap; 
+    justify-content: center;  /* Center horizontally */
+    align-items: center; /* Center vertically */ 
+}
+
+.socialMediaLogo{
+   padding:20px 0px 20px 40px;
+}
+
+
+
+/* Features Section Css   */
+
+.features {
+    padding: 50px 150px 20px 150px;
+}
+
+.cardSection{
+    padding: 0px 150px 20px 150px;
+}
+
+.featureHeadLine{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    padding-left:250px;
+    padding-right: 250px;
+} 
+
+.featureSubtitle{
+    color: #5F6D7E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;  
+    padding-left:250px;
+    padding-right: 250px;
+}
+
+.featureContainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /*  Center vertically */
+}
+
+.featureContainerItem{
+    min-width:300px;
+    flex-basis: calc(33% - 20px);
+    padding: 50px 0px 20px 20px; 
+}
+
+.featureContainerItemHeader{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    padding-top: 20px;
+    }
+
+    .featureContainerItemText{
+    color: #5F6D7E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+
+    }
+
+    .learnMorebtn{
+            background-color: white;
+            color: #008CBA;
+            border: none;
+    }
+
+    .base{
+        display: flex;
+        padding: 20px;
+        align-items: center;
+
+    }
+
+    .d-flex {
+        padding-top:10px;
+        padding-bottom: 10px;
+    }
+    #baseSection {
+        padding: 20px;
+    }
+
+    
+
+    .baseChildHeader{
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: -0.01em;
+        text-align: left;
+    } 
+
+    .baseChildItem{
+        padding-left:20px;
+    }
+
+    .baseImage{
+        height: auto;
+        width :auto;
+    }
+
+    .base2{
+        background-color:  #212529;
+        display: flex;
+        padding: 20px;
+        align-items: center;
+
+    }
+
+
+    .smfeatureHeader{
+        display:none;
+    }
+
+    .thankNoteSection{
+        display: flex;
+        flex-direction: column;
+        background-color: #F8F9FB;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .thankNote{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    padding-left:250px;
+    padding-right: 250px;
+
+    }
+
+    .looksImageLogo{
+        padding:30px;
+    }
+
+    .avatar{
+        display: flex;
+        flex-direction:row;
+        padding-left: 20px;
+        max-height:42;
+    }
+
+    .avatar-img{
+        padding-right: 20px;
+        height:auto;
+        width:auto;
+    }
+
+    .avatar-name{
+        color: #272D37;
+        font-size: 20px;
+    font-weight: 500;
+    }
+
+    .avatar-designation{
+        color: #5F6D7E;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .blogContainer{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Center horizontally */
+    }
+
+    .blogContainerItem{
+     /*   background-color: palevioletred;   */
+        flex-basis: calc(33%);
+        padding-top:50px;
+        padding: 50px 10px 20px 10px;   
+
+    }
+
+    .blog-pic{
+        width:auto;
+        height:auto;
+        border-radius: 10px;
+    }
+
+    .industryPercent{
+        color:#437EF7;
+        font-weight:600;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+
+    .footer{
+        display:flex;
+        flex-wrap: wrap; 
+        justify-content:space-between;  /* Center horizontally */
+        align-items:start; /* Center vertically */
+        flex-direction: column;
+    }
+
+    .footerDetails{
+        display:flex;
+        flex-wrap: wrap; 
+        justify-content:space-between;  /* Center horizontally */
+        align-items:start; /* Center vertically */
+    }
+
+    .footer-footer{
+        display:flex;
+        flex-wrap: wrap; 
+        justify-content:space-between;  /* Center horizontally */
+        align-items:center; /* Center vertically */
+    }
+
+    .detailItem1{
+        width: 247px;
+        height: 128px;
+        margin: 16px;
+    }
+
+    .detailItem2{
+     
+        margin: 24px;
+    }
+
+    .detailItem3{
+        margin: 24px;
+    }
+
+    .detailItem4{
+        width: 302px;
+        height: 128px;
+        margin: 24px;
+    }
+
+    .emailContainerfooter{
+        width: 200px;
+        height: 46px;
+        border-radius: 6px 0px 0px 6px;
+        border: 1px solid #2E3545;
+        background: linear-gradient(0deg, #2E3545, #2E3545),
+        linear-gradient(0deg, #2C3444, #2C3444);
+
+    }
+    
+    
+    .submit-btnfooter{
+        background-color:  #437EF7;
+        color:white;
+        width: 88px;
+        height: 47px;
+        border-radius: 0px 6px 6px 0px;
+        border:1px solid #437EF7;
+    }
+
+    .itemHeader{
+        color: #F9F9F9;
+        padding:10px 10px 10px 0px;
+    }
+
+    .itemBody{
+        color:#A5ACBA;
+        width: Hug (87px);
+        height: Hug (24px);
+        border-radius: 5px;
+        margin: 4px;
+
+    }
+
+
+
+
+
+/* for mobile screen  */  
+@media screen and (max-width: 375px) {
+    .btn{
+        width: 100%  !important;
+    }
+    .heroCard {
+        flex-direction:column-reverse;
+        padding:40px;   
+    }
+
+    .companylogo{
+        flex-basis: calc(50% - 60px);
+        height: 100%;
+        width : 100%;
+    }
+    .cardImage{
+        height: 100%;
+        width : 100%;
+    }
+    .featureContainerItem{  
+        min-width:100%; 
+        flex-basis: calc(100% - 20px);
+    }  
+    .featureContainerItemHeader{
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        letter-spacing: -0.01em;
+        text-align: left;
+        padding-top: 20px;
+    }
+    .baseChildHeader{
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 22px;
+            letter-spacing: -0.01em;
+            text-align: left;
+    }  
+    .featureContainer .feature{
+            padding:none;
+    }
+    #baseSection {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .cardHeading{
+        font-size: 20px; 
+        font-weight: 700;
+        line-height: 25px; 
+    }
+    .blogContainerItem{  
+        min-width:100%; 
+        flex-basis: calc(100% - 20px);
+    }
+    
+    .blog-pic{
+        height: 100%;
+        width : 100%;
+    }
+
+    .submit-btnfooter{  
+        margin-bottom: 10px;
+        border-radius: 6px 6px 6px 6px;
+        width: 100% !important;
+    }
+
+    .emailContainerfooter{
+        margin-bottom: 10px;
+        width: 100% !important;
+        border-radius: 6px 6px 6px 6px;
+    } 
+    
+    .detailItem2{
+        margin-top: 0px;
+    }
+
+    .detailItem3{
+        margin-top: 0px;
+    }
+
+    .detailItem4{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .submit-btn{  
+            margin-bottom: 20px;
+            border-radius: 6px 6px 6px 6px;
+            width: 100% ;
+        }
+
+        .emailContainer{
+            margin-bottom: 20px;
+            width: 100% ;
+            border-radius: 6px 6px 6px 6px;
+        } 
+        
+        .socialMediaLogo{
+            padding:10px 30px ;
+         }
+
+         .detailItem1{
+            width: 100%;
+        }
+        .detailItem4{
+            width: 100%;
+        }
+
+        .emailContainerfooter{
+            width: 60%
+        }   
+        .submit-btnfooter{
+            width: 40%;
+        }
+
+        .textInputContainer{
+            justify-content: start;  
+        }
+
+
+     /*    .footerDetails{
+            justify-content:left;
+        }   */
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .heroCard {
+        flex-direction:column-reverse;
+        padding:0px;
+    }
+
+    .cardHeading{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 45px;
+    }
+
+    .featureContainerItem  {  
+        flex-basis: calc(50% - 20px);
+    }
+    
+    .baseContainerItem{  
+        min-width:100%; 
+        flex-basis: calc(100% - 20px);
+    } 
+    
+    .featureHeader{
+        padding: 0px;
+    }
+
+    .featureContainer{
+        padding:none;
+    }
+
+    .bloglastItem{  
+        display:flex;
+    }
+
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 1200px) {
+    #header {
+      padding: 0px 20px;
+    }
+
+    .heroCard {
+        flex-direction:column-reverse;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+    }
+
+    #cardBase{
+        min-width:auto;
+        padding:20px;  
+    }
+
+    .cardImage{
+        height: 100%;
+        width : 100%;
+    }
+
+    .features{
+        padding:20px
+    }
+
+    .cardSection{
+        padding: 20px;
+    }
+    .featureHeadLine{
+        padding-left:20px;  
+        padding-right:20px; 
+    }
+    .featureSubtitle{
+        padding:20px;   
+    }
+    .base {
+        flex-direction:column-reverse;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        padding:0px;
+    }
+    
+    .baseImage{
+        content: url('images/pic2.png');
+        height: 100%;
+        width : 100%;
+    }
+    .base2 {
+        flex-direction:column;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        padding:0px;
+    }
+
+    
+    .smfeatureHeader{
+        display:block;
+    }
+
+    .thankNoteSection{
+        justify-content:flex-start;
+        align-items:flex-start;
+    }
+
+    .thankNote{
+        padding:20px;
+        text-align: left;   
+    }
+
+    .bloglastItem{  
+        display:none;
+    }
+    
+    
+  }
+  
