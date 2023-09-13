@@ -1,0 +1,7 @@
+what i learn during this assignment:
+
+1: Create classes instead of ID for applying css on the elements because ID is a unique attribute and is used for backend in javascript 
+2: We can use already created classes for changing the CSS sttribute just add !important after the new property
+3: if we change the behaviour of some element during resizing (like at 992px) and we again want to change  the behaviour
+ at smaller screen like 576px etc  then too we need to add !important after property.
+  
